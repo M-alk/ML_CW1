@@ -32,11 +32,3 @@ python src/train_model.py
 This writes:
 
 - `outputs/CW1_submission_k22056537.csv`
-
-Submission format is a single column named `yhat` with one prediction per test row.
-
-## Notebook order
-
-1. `notebooks/01_eda.ipynb` - EDA and feature checks
-2. `notebooks/02_baseline.ipynb` - baseline models
-3. `notebooks/03_tree_models.ipynb` - tree models, tuning, and final model selection
