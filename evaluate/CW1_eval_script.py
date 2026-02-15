@@ -20,6 +20,7 @@ X_tst = pd.get_dummies(X_tst, columns=categorical_cols, drop_first=True)
 # Train your model (using a simple LM here as an example)
 X_trn = trn.drop(columns=['outcome'])
 y_trn = trn['outcome']
+#change to my model name
 model = LinearRegression()
 model.fit(X_trn, y_trn)
 
